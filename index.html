@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>114-1 活力籃球營 | 官方網站</title>
+  <link rel="icon" href="/cdn/FAVICON.jpeg" type="image/jpeg" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #007bff;
+      --accent-color: #ff6f00;
+      --bg-color: #f8f9fa;
+      --text-color: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('/cdn/IMG1.jpeg') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    }
+
+    header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--main-color);
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      color: var(--accent-color);
+      font-weight: bold;
+    }
+
+    .img-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 1rem;
+    }
+
+    .img-grid img {
+      width: calc(33.333% - 10px);
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .img-grid img {
+        width: 100%;
+      }
+    }
+
+    .table {
+      margin-top: 1rem;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .table th, .table td {
+      border: 1px solid #ccc;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    .cta a {
+      background-color: var(--accent-color);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      font-size: 1.25rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: #e65c00;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer small {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🔥 114-1 活力籃球營 🔥</h1>
+  </header>
+
+  <section>
+    <h2>🏀 教學理念</h2>
+    <p>
+      本課程的核心理念是 <span class="highlight">「從樂趣中學習」</span>。
+      我們透過遊戲化教學、分級訓練與正向鼓勵，
+      讓學生在安全、有趣且充滿挑戰的環境中愛上籃球。
+    </p>
+    <p>
+      我們不僅培養孩子的籃球技巧，更著重於自信心、團隊合作與解決問題的能力。
+      這些寶貴特質，將伴隨他們一生。
+    </p>
+  </section>
+
+  <section>
+    <h2>🎉 暑期班回顧</h2>
+    <p>
+      新莊中信國小的暑期班已圓滿落幕！感謝所有支持的家長與學員，孩子們在球場上的笑容與成長，是我們最大的動力！
+    </p>
+    <div class="img-grid">
+      <img src="/cdn/IMG2.jpeg" alt="回顧照片1" />
+      <img src="/cdn/IMG3.jpeg" alt="回顧照片2" />
+      <img src="/cdn/IMG4.jpeg" alt="回顧照片3" />
+    </div>
+  </section>
+
+  <section>
+    <h2>📍 新學期開課資訊</h2>
+    <ul>
+      <li>📌 上課地點：新泰國小風雨球場</li>
+      <li>🎯 招生對象：國小一至六年級學生</li>
+      <li>🗓 開課時間：114 學年度上學期（週六）</li>
+    </ul>
+    <p>✨ 上課請自備 <strong>5號籃球</strong>（品牌不限，建議Molten BG2000，一顆360元）</p>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>類別</th>
+          <th>每堂費用</th>
+          <th>堂數</th>
+          <th>總金額</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>一般學員</td>
+          <td>$350</td>
+          <td>13</td>
+          <td>$4550</td>
+        </tr>
+        <tr>
+          <td>舊生優惠</td>
+          <td>$320</td>
+          <td>13</td>
+          <td>$4160</td>
+        </tr>
+        <tr>
+          <td>AB 時段合報</td>
+          <td>優惠價</td>
+          <td>26</td>
+          <td>$7000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="cta">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfF6iCjQ4kp5c9eqry2onOqmneE4MyhHRrtbx42k5yWOOwx1A/viewform?pli=1" target="_blank">📋 點我立即報名</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>📸 球場精彩瞬間</h2>
+    <div class="img-grid">
+      <img src="/cdn/IMG5.jpeg" alt="活動照1" />
+      <img src="/cdn/IMG6.jpeg" alt="活動照2" />
+      <img src="/cdn/IMG7.jpeg" alt="活動照3" />
+    </div>
+  </section>
+
+  <footer>
+    <small>© 2025 <a href="https://nethacker.cloud" target="_blank">NetHacker</a> All Rights Reserved.</small>
+    <br>
+    <small>Website by NetHacker - NeuralNexusLab</small>
+  </footer>
+</body>
+</html>
